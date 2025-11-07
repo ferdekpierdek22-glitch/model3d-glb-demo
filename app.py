@@ -22,7 +22,7 @@ if uploaded_files:
 
     st.download_button(
         "⬇️ Pobierz model GLB (demo)",
-        data=b"Demo plik GLB – symulacja",
+        data="Demo plik GLB - symulacja".encode(),
         file_name="model3d.glb",
         mime="model/gltf-binary"
     )
